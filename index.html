@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body class="body">
+    <p class="text">Proszę o wypełnienie pól z (*)</p>
+    <form class="js-form form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">
+                Kalkulator walut
+            </legend>
+            <label>
+                <span class="form__labelText"> Kwota (PLN)*
+                    <input class="form__labelField js-amount" name="amount" placeholder="Wpisz kwotę w zł" step="0.1"
+                        min="0.1" autofocus type="number" required>
+                </span>
+            </label>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Wybierz walutę
+                    </span>
+                    <select class="js-currency form__field">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="CHF">CHF</option>
+                        <option value="GBP">GBP</option>
+                        <option value="CNY">CNY</option>
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <button class="form__button">Oblicz</button>
+        </p>
+    </form>
+    <p class="result">
+        <span class="js-result"></span>
+    </p>
+    <p class="text">Kursy walut na dzień 23.03.2023</p>
+</body>
+
+</html>
