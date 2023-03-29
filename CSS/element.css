@@ -1,0 +1,7 @@
+.element {
+    resize: both;
+    overflow: auto;
+    background-image: url(../image/converter-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
