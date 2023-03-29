@@ -32,5 +32,5 @@ formElement.addEventListener("submit", (event) => {
             result = amount / rateCNY;
             break;
     }
-    resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
+    resultElement.innerHTML = `<strong>${amount.toFixed(2)} PLN </strong> = <strong>${result.toFixed(2)} ${currency}</strong>`;
 });
