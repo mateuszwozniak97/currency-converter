@@ -8,7 +8,7 @@ This project presents a currency calculator. It is a simple calculator in which 
 
 The following shows how the currency calculator works.
 
-![Currency-Calculator](image/CurrentyCalculator.gif)
+![Currency-Calculator](image/converter.gif)
 
 ## Demo Currency Calculator
 
