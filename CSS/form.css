@@ -53,17 +53,24 @@
     background-color: rgb(240, 211, 211) ;
 }
 .text {
-    text-align: left;
-    color: white;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .text_message {
     color: black;
     text-align: center;
 }
 .result {
-    text-align: right;
-    padding: 10px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 15px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 1.5;
+    border: 2px solid black;
+    background-color: rgb(240, 211, 211);
+    border-radius: 5px;
 }
